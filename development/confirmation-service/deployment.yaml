@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: confirmation-service
-          image: docker.io/dhubau/confirmation-service:latest
+          image: docker.io/mshahat/confirmation-service:latest
           imagePullPolicy: Always
           env:
             - name: NODE_NAME

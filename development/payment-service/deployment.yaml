@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: payment-service
-          image: docker.io/dhubau/payment-service:latest
+          image: docker.io/mshahat/payment-service:latest
           imagePullPolicy: Always
           env:
             - name: NODE_NAME
