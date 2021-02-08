@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: account-service
-          image: docker.io/mshahat/account-service:b2.20200629.120524
+          image: docker.io/mshahat/account-service:latest
           imagePullPolicy: Always
           env:
             - name: SERVER_PORT
