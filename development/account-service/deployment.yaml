@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: account-service
-          image: docker.io/mshahat/account-service:latest
+          image: harbor.tanzu.moshahat.io/mshahat/account-service:latest
           imagePullPolicy: Always
           env:
             - name: SERVER_PORT
